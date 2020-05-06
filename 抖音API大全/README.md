@@ -4,6 +4,23 @@
 
 ## 操作协议
 
+### 登录
+<table>
+    <tr>
+        <th>协议名</th>
+        <th>协议标识</th>
+        <th>URL</th>
+        <th>请求方法</th>
+    </tr>
+    <tr>
+        <td>获取登录二维码</td>
+        <td>douyin.login.getLoginQrCode</td>
+        <td>https://douyin.apibox.cc/login/getLoginQrCode</td>
+        <td>GET</td>
+    </tr>
+</table>
+
+
 ### 用户相关操作协议
 <table>
     <tr>
