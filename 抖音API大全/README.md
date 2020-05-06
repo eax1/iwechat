@@ -10,13 +10,13 @@
         <th>协议名</th>
         <th>协议标识</th>
         <th>URL</th>
-        <th>请求方法</th>s
+        <th>请求方法</th>
     </tr>
     <tr>
-        <th>关注好友</th>
-        <th>douyin.user.follow</th>
-        <th>https://douyin.apibox.cc/user/follow</th>
-        <th>POST</th>
+        <td>关注好友</td>
+        <td>douyin.user.follow</td>
+        <td>https://douyin.apibox.cc/user/follow</td>
+        <td>POST</td>
     </tr>
 </table>
 
@@ -26,31 +26,31 @@
         <th>协议名</th>
         <th>协议标识</th>
         <th>URL</th>
-        <th>请求方法</th>s
+        <th>请求方法</th>
     </tr>
     <tr>
-        <th>点赞</th>
-        <th>douyin.user.follow</th>
-        <th>https://douyin.apibox.cc/video/digg</th>
-        <th>POST</th>
+        <td>点赞</td>
+        <td>douyin.user.follow</td>
+        <td>https://douyin.apibox.cc/video/digg</td>
+        <td>POST</td>
     </tr>
     <tr>
-        <th>评论</th>
-        <th>douyin.video.comment</th>
-        <th>https://douyin.apibox.cc/video/comment</th>
-        <th>POST</th>
+        <td>评论</td>
+        <td>douyin.video.comment</td>
+        <td>https://douyin.apibox.cc/video/comment</td>
+        <td>POST</td>
     </tr>
     <tr>
-        <th>评论点赞</th>
-        <th>douyin.video.comment.digg</th>
-        <th>https://douyin.apibox.cc/video/comment.digg</th>
-        <th>POST</th>
+        <td>评论点赞</td>
+        <td>douyin.video.comment.digg</td>
+        <td>https://douyin.apibox.cc/video/comment.digg</td>
+        <td>POST</td>
     </tr>
     <tr>
-        <th>评论回复</th>
-        <th>douyin.video.comment.reply</th>
-        <th>https://douyin.apibox.cc/video/comment.reply</th>
-        <th>POST</th>
+        <td>评论回复</td>
+        <td>douyin.video.comment.reply</td>
+        <td>https://douyin.apibox.cc/video/comment.reply</td>
+        <td>POST</td>
     </tr>
 </table>
 
@@ -64,52 +64,52 @@
         <th>请求方法</th>s
     </tr>
     <tr>
-        <th>用户信息</th>
-        <th>douyin.user.info</th>
-        <th>https://douyin.apibox.cc/user/info</th>
-        <th>GET</th>
+        <td>用户信息</td>
+        <td>douyin.user.info</td>
+        <td>https://douyin.apibox.cc/user/info</td>
+        <td>GET</td>
     </tr>
     <tr>
-        <th>用户粉丝列表</th>
-        <th>douyin.user.followers</th>
-        <th>https://douyin.apibox.cc/user/followers</th>
-        <th>GET</th>
+        <td>用户粉丝列表</td>
+        <td>douyin.user.followers</td>
+        <td>https://douyin.apibox.cc/user/followers</td>
+        <td>GET</td>
     </tr>
     <tr>
-        <th>用户关注列表</th>
-        <th>douyin.user.following</th>
-        <th>https://douyin.apibox.cc/user/following</th>
-        <th>GET</th>
+        <td>用户关注列表</td>
+        <td>douyin.user.following</td>
+        <td>https://douyin.apibox.cc/user/following</td>
+        <td>GET</td>
     </tr>
     <tr>
-        <th>用户作品列表</th>
-        <th>douyin.user.posts</th>
-        <th>https://douyin.apibox.cc/user/posts</th>
-        <th>GET</th>
+        <td>用户作品列表</td>
+        <td>douyin.user.posts</td>
+        <td>https://douyin.apibox.cc/user/posts</td>
+        <td>GET</td>
     </tr>
     <tr>
-        <th>用户动态列表</th>
-        <th>douyin.user.moments</th>
-        <th>https://douyin.apibox.cc/user/moments</th>
-        <th>GET</th>
+        <td>用户动态列表</td>
+        <td>douyin.user.moments</td>
+        <td>https://douyin.apibox.cc/user/moments</td>
+        <td>GET</td>
     </tr>
     <tr>
-        <th>用户喜欢视频列表</th>
-        <th>douyin.user.favourites</th>
-        <th>https://douyin.apibox.cc/user/favourites</th>
-        <th>GET</th>
+        <td>用户喜欢视频列表</td>
+        <td>douyin.user.favourites</td>
+        <td>https://douyin.apibox.cc/user/favourites</td>
+        <td>GET</td>
     </tr>
     <tr>
-        <th>用户商品橱窗商品列表</th>
-        <th>douyin.user.promotions</th>
-        <th>https://douyin.apibox.cc/user/promotions</th>
-        <th>GET</th>
+        <td>用户商品橱窗商品列表</td>
+        <td>douyin.user.promotions</td>
+        <td>https://douyin.apibox.cc/user/promotions</td>
+        <td>GET</td>
     </tr>
     <tr>
-        <th>用户橱窗商品关键词搜索</th>
-        <th>douyin.user.promotions</th>
-        <th>https://douyin.apibox.cc/user/promotions/search</th>
-        <th>GET</th>
+        <td>用户橱窗商品关键词搜索</td>
+        <td>douyin.user.promotions</td>
+        <td>https://douyin.apibox.cc/user/promotions/search</td>
+        <td>GET</td>
     </tr>
 </table>
 
@@ -290,40 +290,40 @@
         <th>请求方法</th>s
     </tr>
     <tr>
-        <th>关键词搜索用户</th>
-        <th>douyin.user.search</th>
-        <th>https://douyin.apibox.cc/user/search</th>
-        <th>GET</th>
+        <td>关键词搜索用户</td>
+        <td>douyin.user.search</td>
+        <td>https://douyin.apibox.cc/user/search</td>
+        <td>GET</td>
     </tr>
     <tr>
-        <th>关键词搜索用户</th>
-        <th>douyin.video.search</th>
-        <th>https://douyin.apibox.cc/video/search</th>
-        <th>GET</th>
+        <td>关键词搜索用户</td>
+        <td>douyin.video.search</td>
+        <td>https://douyin.apibox.cc/video/search</td>
+        <td>GET</td>
     </tr>
     <tr>
-        <th>关键词搜索话题</th>
-        <th>douyin.topic.search</th>
-        <th>https://douyin.apibox.cc/topic/search</th>
-        <th>GET</th>
+        <td>关键词搜索话题</td>
+        <td>douyin.topic.search</td>
+        <td>https://douyin.apibox.cc/topic/search</td>
+        <td>GET</td>
     </tr>
     <tr>
-        <th>关键词搜索音乐</th>
-        <th>douyin.music.search</th>
-        <th>https://douyin.apibox.cc/music/search</th>
-        <th>GET</th>
+        <td>关键词搜索音乐</td>
+        <td>douyin.music.search</td>
+        <td>https://douyin.apibox.cc/music/search</td>
+        <td>GET</td>
     </tr>
     <tr>
-        <th>关键词搜索地点</th>
-        <th>douyin.poi.search</th>
-        <th>https://douyin.apibox.cc/poi/search</th>
-        <th>GET</th>
+        <td>关键词搜索地点</td>
+        <td>douyin.poi.search</td>
+        <td>https://douyin.apibox.cc/poi/search</td>
+        <td>GET</td>
     </tr>
     <tr>
-        <th>关键词搜索综合</th>
-        <th>douyin.general.search</th>
-        <th>https://douyin.apibox.cc/general/search</th>
-        <th>GET</th>
+        <td>关键词搜索综合</td>
+        <td>douyin.general.search</td>
+        <td>https://douyin.apibox.cc/general/search</td>
+        <td>GET</td>
     </tr>
 </table>
 
@@ -337,9 +337,9 @@
         <th>请求方法</th>s
     </tr>
     <tr>
-        <th>点赞</th>
-        <th>douyin.user.follow</th>
-        <th>https://douyin.apibox.cc/video/digg</th>
-        <th>POST</th>
+        <td>点赞</td>
+        <td>douyin.user.follow</td>
+        <td>https://douyin.apibox.cc/video/digg</td>
+        <td>POST</td>
     </tr>
 </table>
