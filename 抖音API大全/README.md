@@ -1,0 +1,345 @@
+## 抖音API
+
+抖音最全的API
+
+## 操作协议
+
+### 用户相关操作协议
+<table>
+    <tr>
+        <th>协议名</th>
+        <th>协议标识</th>
+        <th>URL</th>
+        <th>请求方法</th>s
+    </tr>
+    <tr>
+        <th>关注好友</th>
+        <th>douyin.user.follow</th>
+        <th>https://douyin.apibox.cc/user/follow</th>
+        <th>POST</th>
+    </tr>
+</table>
+
+### 视频相关协议
+<table>
+    <tr>
+        <th>协议名</th>
+        <th>协议标识</th>
+        <th>URL</th>
+        <th>请求方法</th>s
+    </tr>
+    <tr>
+        <th>点赞</th>
+        <th>douyin.user.follow</th>
+        <th>https://douyin.apibox.cc/video/digg</th>
+        <th>POST</th>
+    </tr>
+    <tr>
+        <th>评论</th>
+        <th>douyin.video.comment</th>
+        <th>https://douyin.apibox.cc/video/comment</th>
+        <th>POST</th>
+    </tr>
+    <tr>
+        <th>评论点赞</th>
+        <th>douyin.video.comment.digg</th>
+        <th>https://douyin.apibox.cc/video/comment.digg</th>
+        <th>POST</th>
+    </tr>
+    <tr>
+        <th>评论回复</th>
+        <th>douyin.video.comment.reply</th>
+        <th>https://douyin.apibox.cc/video/comment.reply</th>
+        <th>POST</th>
+    </tr>
+</table>
+
+## 数据抓取协议
+### 用户相关
+<table>
+    <tr>
+        <th>协议名</th>
+        <th>协议标识</th>
+        <th>URL</th>
+        <th>请求方法</th>s
+    </tr>
+    <tr>
+        <th>用户信息</th>
+        <th>douyin.user.info</th>
+        <th>https://douyin.apibox.cc/user/info</th>
+        <th>GET</th>
+    </tr>
+    <tr>
+        <th>用户粉丝列表</th>
+        <th>douyin.user.followers</th>
+        <th>https://douyin.apibox.cc/user/followers</th>
+        <th>GET</th>
+    </tr>
+    <tr>
+        <th>用户关注列表</th>
+        <th>douyin.user.following</th>
+        <th>https://douyin.apibox.cc/user/following</th>
+        <th>GET</th>
+    </tr>
+    <tr>
+        <th>用户作品列表</th>
+        <th>douyin.user.posts</th>
+        <th>https://douyin.apibox.cc/user/posts</th>
+        <th>GET</th>
+    </tr>
+    <tr>
+        <th>用户动态列表</th>
+        <th>douyin.user.moments</th>
+        <th>https://douyin.apibox.cc/user/moments</th>
+        <th>GET</th>
+    </tr>
+    <tr>
+        <th>用户喜欢视频列表</th>
+        <th>douyin.user.favourites</th>
+        <th>https://douyin.apibox.cc/user/favourites</th>
+        <th>GET</th>
+    </tr>
+    <tr>
+        <th>用户商品橱窗商品列表</th>
+        <th>douyin.user.promotions</th>
+        <th>https://douyin.apibox.cc/user/promotions</th>
+        <th>GET</th>
+    </tr>
+    <tr>
+        <th>用户橱窗商品关键词搜索</th>
+        <th>douyin.user.promotions</th>
+        <th>https://douyin.apibox.cc/user/promotions/search</th>
+        <th>GET</th>
+    </tr>
+</table>
+
+### 视频相关
+<table>
+    <tr>
+        <th>协议名</th>
+        <th>协议标识</th>
+        <th>URL</th>
+        <th>请求方法</th>s
+    </tr>
+    <tr>
+        <td>视频评论列表</td>
+        <td>douyin.video.comments</td>
+        <td>https://douyin.apibox.cc/video/comments</td>
+        <td>GET</td>
+    </tr>
+    <tr>
+        <td>视频评论回复列表</td>
+        <td>douyin.video.comment.replies</td>
+        <td>https://douyin.apibox.cc/video/comment/replies</td>
+        <td>GET</td>
+    </tr>
+    <tr>
+        <td>视频带货信息</td>
+        <td>douyin.video.promotions</td>
+        <td>https://douyin.apibox.cc/video/promotions</td>
+        <td>GET</td>   
+    </tr>
+    <tr>
+        <td>带货商品promotion详情</td>
+        <td>douyin.promotion.info</td>
+        <td>https://douyin.apibox.cc/video/promotion/detail</td>
+        <td>GET</td>
+    </tr>
+    <tr>
+        <td>带货同款商品视频推荐</td>
+        <td>douyin.promotion.samevideos</td>
+        <td>https://douyin.apibox.cc/promotion/samevideos</td>
+        <td>GET</td>
+    </tr>
+     <tr>
+        <td>视频详情</td>
+        <td>douyin.video.detail</td>
+        <td>https://douyin.apibox.cc/video/detail</td>
+        <td>GET</td>
+    </tr>
+</table>
+
+### 话题相关
+<table>
+    <tr>
+        <th>协议名</th>
+        <th>协议标识</th>
+        <th>URL</th>
+        <th>请求方法</th>s
+    </tr>
+    <tr>
+        <td>话题视频列表</td>
+        <td>douyin.challenge.videos</td>
+        <td>https://douyin.apibox.cc/challenge/videos</td>
+        <td>GET</td>
+    </tr>
+    <tr>
+        <td>话题详情</td>
+        <td>douyin.challenge.detail</td>
+        <td>https://douyin.apibox.cc/video/challenge</td>
+        <td>GET</td>
+    </tr>
+</table>
+
+### 音乐相关
+<table>
+    <tr>
+        <th>协议名</th>
+        <th>协议标识</th>
+        <th>URL</th>
+        <th>请求方法</th>s
+    </tr>
+    <tr>
+        <td>音乐专辑详情</td>
+        <td>douyin.music.detail</td>
+        <td>https://douyin.apibox.cc/music/detail</td>
+        <td>GET</td>
+    </tr>
+    <tr>
+        <td>音乐专辑视频列表</td>
+        <td>douyin.music.videos</td>
+        <td>https://douyin.apibox.cc/music/videos</td>
+        <td>GET</td>
+    </tr>
+</table>
+
+### 地点相关
+<table>
+    <tr>
+        <th>协议名</th>
+        <th>协议标识</th>
+        <th>URL</th>
+        <th>请求方法</th>s
+    </tr>
+    <tr>
+        <td>地点详情</td>
+        <td>douyin.music.poi</td>
+        <td>https://douyin.apibox.cc/poi/detail</td>
+        <td>GET</td>
+    </tr>
+    <tr>
+        <td>地点视频列表</td>
+        <td>douyin.poi.videos</td>
+        <td>https://douyin.apibox.cc/poi/videos</td>
+        <td>GET</td>
+    </tr>
+</table>
+
+### 推荐流
+<table>
+     <tr>
+        <th>协议名</th>
+        <th>协议标识</th>
+        <th>URL</th>
+        <th>请求方法</th>
+    </tr>
+    <tr>
+        <td>带货视频推荐流</td>
+        <td>douyin.feed.promotion.videos</td>
+        <td>https://douyin.apibox.cc/feed/promotion/videos</td>
+        <td>GET</td>
+    </tr>
+    <tr>
+        <td>首页视频推荐</td>
+        <td>douyin.feed.videos</td>
+        <td>https://douyin.apibox.cc/feed/videos</td>
+        <td>GET</td>
+    </tr>
+</table>
+
+### 榜单
+<table>
+    <tr>
+        <th>协议名</th>
+        <th>协议标识</th>
+        <th>URL</th>
+        <th>请求方法</th>s
+    </tr>
+    <tr>
+        <td>实时明星爱DOU榜</td>
+        <td>douyin.hotspot.starboard</td>
+        <td>https://douyin.apibox.cc/hotspot/starboard</td>
+        <td>GET</td>
+    </tr>
+    <tr>
+        <td>实时搜索热榜</td>
+        <td>douyin.hotspot.hotboard</td>
+        <td>https://douyin.apibox.cc/hotspot/hotboard</td>
+        <td>GET</td>
+    </tr>
+    <tr>
+        <td>实时好物榜</td>
+        <td>douyin.hotspot.goodsboard</td>
+        <td>https://douyin.apibox.cc/hotspot/goodsboard</td>
+        <td>GET</td>
+    </tr>
+    <tr>
+        <td>实时热搜词句的视频列表</td>
+        <td>douyin.hotspot.hotvideo</td>
+        <td>https://douyin.apibox.cc/hotspot/hotvideo</td>
+        <td>GET</td>
+    </tr>
+</table>
+
+### 搜素
+<table>
+    <tr>
+        <th>协议名</th>
+        <th>协议标识</th>
+        <th>URL</th>
+        <th>请求方法</th>s
+    </tr>
+    <tr>
+        <th>关键词搜索用户</th>
+        <th>douyin.user.search</th>
+        <th>https://douyin.apibox.cc/user/search</th>
+        <th>GET</th>
+    </tr>
+    <tr>
+        <th>关键词搜索用户</th>
+        <th>douyin.video.search</th>
+        <th>https://douyin.apibox.cc/video/search</th>
+        <th>GET</th>
+    </tr>
+    <tr>
+        <th>关键词搜索话题</th>
+        <th>douyin.topic.search</th>
+        <th>https://douyin.apibox.cc/topic/search</th>
+        <th>GET</th>
+    </tr>
+    <tr>
+        <th>关键词搜索音乐</th>
+        <th>douyin.music.search</th>
+        <th>https://douyin.apibox.cc/music/search</th>
+        <th>GET</th>
+    </tr>
+    <tr>
+        <th>关键词搜索地点</th>
+        <th>douyin.poi.search</th>
+        <th>https://douyin.apibox.cc/poi/search</th>
+        <th>GET</th>
+    </tr>
+    <tr>
+        <th>关键词搜索综合</th>
+        <th>douyin.general.search</th>
+        <th>https://douyin.apibox.cc/general/search</th>
+        <th>GET</th>
+    </tr>
+</table>
+
+
+### 直播相关协议
+<table>
+    <tr>
+        <th>协议名</th>
+        <th>协议标识</th>
+        <th>URL</th>
+        <th>请求方法</th>s
+    </tr>
+    <tr>
+        <th>点赞</th>
+        <th>douyin.user.follow</th>
+        <th>https://douyin.apibox.cc/video/digg</th>
+        <th>POST</th>
+    </tr>
+</table>
