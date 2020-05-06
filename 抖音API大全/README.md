@@ -61,7 +61,7 @@
         <th>协议名</th>
         <th>协议标识</th>
         <th>URL</th>
-        <th>请求方法</th>s
+        <th>请求方法</th>
     </tr>
     <tr>
         <td>用户信息</td>
@@ -119,7 +119,7 @@
         <th>协议名</th>
         <th>协议标识</th>
         <th>URL</th>
-        <th>请求方法</th>s
+        <th>请求方法</th>
     </tr>
     <tr>
         <td>视频评论列表</td>
@@ -165,7 +165,7 @@
         <th>协议名</th>
         <th>协议标识</th>
         <th>URL</th>
-        <th>请求方法</th>s
+        <th>请求方法</th>
     </tr>
     <tr>
         <td>话题视频列表</td>
@@ -187,7 +187,7 @@
         <th>协议名</th>
         <th>协议标识</th>
         <th>URL</th>
-        <th>请求方法</th>s
+        <th>请求方法</th>
     </tr>
     <tr>
         <td>音乐专辑详情</td>
@@ -209,7 +209,7 @@
         <th>协议名</th>
         <th>协议标识</th>
         <th>URL</th>
-        <th>请求方法</th>s
+        <th>请求方法</th>
     </tr>
     <tr>
         <td>地点详情</td>
@@ -253,7 +253,7 @@
         <th>协议名</th>
         <th>协议标识</th>
         <th>URL</th>
-        <th>请求方法</th>s
+        <th>请求方法</th>
     </tr>
     <tr>
         <td>实时明星爱DOU榜</td>
@@ -287,7 +287,7 @@
         <th>协议名</th>
         <th>协议标识</th>
         <th>URL</th>
-        <th>请求方法</th>s
+        <th>请求方法</th>
     </tr>
     <tr>
         <td>关键词搜索用户</td>
@@ -334,7 +334,7 @@
         <th>协议名</th>
         <th>协议标识</th>
         <th>URL</th>
-        <th>请求方法</th>s
+        <th>请求方法</th>
     </tr>
     <tr>
         <td>点赞</td>
